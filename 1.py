@@ -1,10 +1,11 @@
-#Intent Classifier
-from rasa_nlu.training_data import load_data
+from rasa_nlu.training_data  import load_data
+from rasa_nlu.config import RasaNLUModelConfig
 from rasa_nlu.model import Trainer
 from rasa_nlu import config
-from rasa_nlu.config import RasaNLUModelConfig
-train_data = load_data('meet_dataset.md')
-trainer = Trainer(config.load(Loader='config_spacy.yml'))
+
+
+train_data = load_data('config.json')
+trainer = Trainer(config.load("config_spacy.yaml"))
 trainer.train(train_data)
 model_directory = trainer.persist('/projects/')
 import spacy
