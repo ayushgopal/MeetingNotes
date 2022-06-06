@@ -1,0 +1,13 @@
+version: "3.1"
+
+stories:
+
+- story: story talking point
+  steps:
+  - intent: talking_point
+  - action: action_talking_point
+
+- story: story action item
+  steps:
+  - intent: action_item
+  - action: action_action_item

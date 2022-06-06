@@ -1,0 +1,17 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: story talking point
+  steps:
+  - user: |
+      We need to fix some issues with deployment
+    intent: talking_point
+  - action: action_talking_point
+
+- story: story action item
+  steps:
+  - user: |
+      We need to fix these issues by 6 pm
+    intent: action_item
+  - action: action_action_item
