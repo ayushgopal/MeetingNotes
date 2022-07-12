@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-id",
+      "2": "I-id",
+      "3": "L-id",
+      "4": "U-id",
+      "5": "B-owner",
+      "6": "I-owner",
+      "7": "L-owner",
+      "8": "U-owner",
+      "9": "B-time",
+      "10": "I-time",
+      "11": "L-time",
+      "12": "U-time",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-id": 1,
+      "I-id": 2,
+      "L-id": 3,
+      "U-id": 4,
+      "B-owner": 5,
+      "I-owner": 6,
+      "L-owner": 7,
+      "U-owner": 8,
+      "B-time": 9,
+      "I-time": 10,
+      "L-time": 11,
+      "U-time": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]
